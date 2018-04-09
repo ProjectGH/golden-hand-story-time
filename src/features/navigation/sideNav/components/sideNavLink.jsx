@@ -5,7 +5,7 @@ import Icon from '../../../../components/icon/icon'
 class SideNavLink extends Component {
   render() {
     return (
-      <Button icon labelPosition="right">
+      <Button className="bg-white" icon labelPosition="right">
         <Icon name="book" />Navigation Label
       </Button>
     )
