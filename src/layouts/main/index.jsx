@@ -6,8 +6,8 @@ class MainLayout extends Component {
   render() {
     return (
       <div className="app">
-        <Slot className="navigation" name="navigation" />
-        <Slot className="content" name="content" />
+        <Slot className="navigation bg-secondary-green" name="navigation" />
+        <Slot className="content bg-pallette-grey" name="content" />
       </div>
     )
   }

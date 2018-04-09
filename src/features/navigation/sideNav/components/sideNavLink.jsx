@@ -5,9 +5,11 @@ import Icon from '../../../../components/icon/icon'
 class SideNavLink extends Component {
   render() {
     return (
-      <Button className="bg-white" icon labelPosition="right">
-        <Icon name="book" />Navigation Label
-      </Button>
+      <div className="my-4">
+        <Button className="w-full" icon labelPosition="right">
+          <Icon name="book" />Navigation Label
+        </Button>
+      </div>
     )
   }
 }
